@@ -1,0 +1,117 @@
+*{
+    font-family: "Karla", sans-serif;
+    font-weight: 400, 700, 800;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(196, 22%, 90%);
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4%;
+    align-items: center; 
+}
+.nav-links {
+    display: flex;
+    column-gap: 1.3rem;
+    margin-right: 130px;
+}
+.nav-links a {
+      font-family: 'Karla', sans-serif;
+      font-size: 18px;
+}
+.navbar a {
+      color: #181719;
+}
+.logo {
+      border: 2px solid #181719;
+      padding: 10px 14px;
+      margin-left: 130px;
+}
+.logo a {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: 'Karla', sans-serif;
+}
+.nav-item {
+      font-weight: 700;
+      border-bottom: 3px solid hsl(71, 73%, 54%);
+      padding-bottom: 3px;   
+}
+.textbox{
+    text-align: center;
+}
+.textbox h1{
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+}
+p{
+    color: gray;
+}
+.forms-container {
+    margin: auto;
+    width: 50%;
+    margin-top: 5vh;
+    padding: 16px;
+}
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+input[type='text']:focus,
+input[type='email']:focus {
+    background-color: #ddd;
+    outline: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 25px;
+}
+.btn_submit {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+.btn_submit:hover {
+    background-color: black;
+}
+.btn_submit {
+    opacity: 1;
+}
+.sm-icons{
+    text-align: center;
+}
+.fa{
+    margin-left: 20px;
+    color: rgb(91, 90, 90);
+}

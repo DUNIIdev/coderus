@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>Sign-up form</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">CODE-R US</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#" class="nav-item">Sign Up</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+       <!-- FORMS CONTAINER -->
+      <div class="forms-container">
+        <p class="try-free"><span><strong>Try it free 7 days</strong> then $29/mo. thereafter</span></p>
+       
+       <!-- FORM -->
+        <form id="form" onsubmit="yourfunctionname()">
+            <input id="firstName" name="firstname" type="text"  placeholder="First Name" required>
+            <input id="lastName" name="lastname" type="text"  placeholder="Last Name" required>
+            <input id="email" name="email" type="email"  placeholder="Email Address" required>
+            <input id="password" name="name" type="password"  placeholder="Password" required>
+            <input id="formSubmit" class="btn_submit" name="submit" type="submit" value="Claim your free trial">
+            <p class="terms">
+             By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+            </p>
+        </form>
+        <script>
+          function yourfunctionname(){
+              alert("Sign up successful!");
+          }
+      </script>
+      </div>
+    </div>
+  </body>
+</html>

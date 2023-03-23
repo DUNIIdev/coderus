@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap');</style>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">CODE-R US</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Sign Up</a></li>
+          <li><a href="#" class="nav-item">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="textbox">
+        <h1>CONTACT US</h1>
+      </div>
+      <div class="forms-container">
+        <p><b>HOW CAN WE HELP YOU TODAY?</b></p>
+        <form id="form" onsubmit="yourfunctionname()">
+            <input id="fullName" name="fullname" type="text"  placeholder="Full Name" required>
+            <input id="email" name="email" type="email"  placeholder="Email Address" required>
+            <input id="message" name="message" type="text"  placeholder="Type your message here" required>
+            <input id="formSubmit" class="btn_submit" name="submit" type="submit" value="SUBMIT">
+        </form>
+    </div>
+        <script>
+          function yourfunctionname(){
+              alert("Message Delivered!");
+          }
+      </script>
+      <div class="sm-icons">
+        <a href="https://facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+        <a href="https://youtube.com" class="fa fa-youtube"></a>
+      </div>
+</body>
+</html>
